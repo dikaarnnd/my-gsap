@@ -13,7 +13,9 @@ const toSlug = (str) =>
 const items = [
   { route: 'gsapto', title: 'gsap.to()' },
   { route: 'gsapfrom', title: 'gsap.from()'  },
-  { route: 'gsapfromto', title:  'gsap.fromTo()' },
+  { route: 'gsaptimeline', title:  'gsap.timeline()' },
+  { route: 'gsapstagger', title:  'gsap.stagger()' },
+  { route: 'gsapscrolltrigger', title:  'gsap.scrolltrigger()' },
 ];
 
 export default function MainPage() {
